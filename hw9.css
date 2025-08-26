@@ -1,0 +1,15 @@
+.item {
+    width: 100px;
+    height: 70px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    align-content: center;
+    background-color: bisque;
+    transition: 0.5s;
+}
+
+.item:hover {
+    opacity: 0;
+    transition: 0.5s;
+}

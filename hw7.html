@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hw7</title>
+    <link rel="stylesheet" href="hw7.css" />
+  </head>
+  <body>
+    <div class="instructions">
+      Click the button below to enter the element into fullscreen mode.
+    </div>
+
+    <div id="fullscreen-box">This is the box that will go fullscreen!</div>
+
+    <button onclick="goFullscreen()">Enter Fullscreen</button>
+
+    <script>
+      function goFullscreen() {
+        const element = document.getElementById("fullscreen-box");
+        if (element.requestFullscreen) {
+          element.requestFullscreen();
+        }
+      }
+    </script>
+  </body>
+</html>

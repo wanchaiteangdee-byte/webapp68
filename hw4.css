@@ -1,0 +1,17 @@
+div {
+    width: 90%;
+    border: 1px solid black;
+}
+a {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 20%;
+    transition: 0.5s;
+}
+a:hover,a:focus {
+    transition: 0.5s;
+    background-color: orange;
+}

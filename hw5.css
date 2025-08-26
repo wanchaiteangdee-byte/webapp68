@@ -1,0 +1,17 @@
+.preview {
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+}
+.scroll-container {
+    overflow-y: scroll;
+    height: 150px;
+}
+.item {
+    width: 20%;
+    float: left;
+}
+img{
+        width: 100%;
+        height: 200px;
+}
